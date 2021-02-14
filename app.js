@@ -146,13 +146,13 @@ search.addEventListener('keyup', function(press) {
 });
 
 //activate slider button on enter key press
-document.getElementById('create-slider').addEventListener('keyup', function(press) {
+// document.getElementById('doration').addEventListener('keyup', function(press) {
  
-  if (press.key === "Enter") {
-    sliderBtn.click();
-  }
-  press.preventDefault();
-});
+//   if (press.key === "Enter") {
+//     sliderBtn.click();
+//   }
+//   press.preventDefault();
+// });
 
 
 //fuction to add or remove picture /Toggle
@@ -164,7 +164,7 @@ const toggleSelectedItem=(img,isadded)=>{
   }
 }
 
-//fuction toggle display of spinner
+//hanldleSpinner function
 const spinner=document.getElementById("spinner");
 const handleSpinner=()=>{
   spinner.classList.toggle("d-none");
